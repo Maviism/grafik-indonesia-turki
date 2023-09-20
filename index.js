@@ -1,35 +1,13 @@
 
 let w = 800 ;
 let h = 450;
-let pieW = 225;
-let pieH = 225;
-let pieR = Math.min(pieW, pieH) / 2;
 
-let zoom = d3.behavior.zoom()
+let zoom = d3.zoom()
     .scaleExtent([1, 10])
     .on("zoom", zoomed);
 
-d3.behavior.drag()
-    .origin(function(d) { return d; })
-    .on("dragstart", dragstarted)
-    .on("drag", dragged)
-    .on("dragend", dragended);
-
 function zoomed() {
-    svg.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-}
-
-function dragstarted(d) {
-    d3.event.sourceEvent.stopPropagation();
-    d3.select(this).classed("dragging", true);
-}
-
-function dragged(d) {
-    d3.select(this).attr("cx", d.x = d3.event.x).attr("cy", d.y = d3.event.y);
-}
-
-function dragended(d) {
-    d3.select(this).classed("dragging", false);
+    svg.attr("transform", d3.event.transform );
 }
 
 let svg = d3.select("#map-chart").append("svg")
@@ -38,14 +16,14 @@ let svg = d3.select("#map-chart").append("svg")
     .append("g")
     .call(zoom);
 
-let color = d3.scale.log()
+let color = d3.scaleLog()
     .range(['#cbefbd', '#9ad154', '#70a894', '#4f788a', '#344484', '#000080']);
 
-let projection = d3.geo.mercator()
+let projection = d3.geoMercator()
     .scale(2200)
     .translate([w - 1760, h + 1405]);
 
-let path = d3.geo.path()
+let path = d3.geoPath()
     .projection(projection);
 
 d3.json("tr-topo-prop.json", function(error, trProp) {
@@ -81,7 +59,7 @@ d3.json("tr-topo-prop.json", function(error, trProp) {
                 .attr("d", path)
                 .attr("class", "province")
                 .attr("id", (trdata) => trdata.properties.ad)
-                .style("stroke", "#f1f1f1");
+                .style("stroke", "#f5f5f5");
 
         map.style("fill", (trdata) => {
             const value = trdata.properties.population;
@@ -94,16 +72,14 @@ d3.json("tr-topo-prop.json", function(error, trProp) {
             const y = coordinates[1];
             
             d3.select("#tooltip").classed("hidden", false)
-                .style("left", x + 10 + "px")
-                .style("top", y + 10 + "px")
+                .style("left", x + 10 + "pt")
+                .style("top", y + 10 + "pt")
                 .select("#provinceName")
                 .text(trdata.properties.ad)
                 
             d3.select("#details").text(trdata.properties.population);
 
-            // console.log(trdata.properties.universities)
             const universitiesInfo = trdata.properties.universities;
-            
             if (universitiesInfo !== undefined) {
                 // Create a list of universities
                 const universitiesList = d3.select("#university")
