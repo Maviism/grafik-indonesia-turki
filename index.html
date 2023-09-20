@@ -2,35 +2,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPI Turki statistik</title>
-    <!-- <script type="text/javascript" src="d3/d3.v3.js"></script> -->
-    <script type="text/javascript" src="d3/topojson.v1.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Grafik mahasiswa Indonesia di Türkiye</title>
+    <script type="text/javascript" src="assets/js/d3/topojson.v1.min.js"></script>
+    <script src="assets/js/d3/d3.v4.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/chart.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
+<body class="antialiased bg-gray-50">
     <div>
-        <h1 class="bg-yellow-500 font-semibold text-xl w-auto p-2">Statistik mahasiswa Indonesia di Türkiye</h1>
+        <h1 class="bg-yellow-500 font-semibold text-xl w-auto p-2">Grafik mahasiswa Indonesia di Türkiye</h1>
     </div>
     <div id="tooltip" class="hidden">
-        <div class="flex space-x-5">
+        <div class="flex space-x-5 text-white">
             <div class="mr-2"><strong id="provinceName"></strong></div>
             <div id="details" ></div>
         </div>
-        <div id="university"></div>
     </div>
 
-    <div id="map-chart" class="flex justify-center w-auto text-xs" style="border: 2px;"></div>
-
-    <div>
-            Total Mahasiswa : 4662
+    <div class="flex flex-col sm:flex-row items-center p-0 sm:mr-4">
+        <svg width="100%" height="500" id="map-chart"></svg>
+        <div id="details" class="p-4 rounded w-96 h-auto sm:h-auto bg-yellow-500">
+            <div class="italic text-xs font-semibold -m-2">Data 2022-2023</div>
+            <div class="text-center">
+                <div class="font-semibold text-gray-700">Provinsi </div>
+                <div id="province" class="text-xl font-bold">All</div>
+                <div class="font-semibold text-gray-700">Mahasiswa </div>
+                <div id="students" class="text-xl font-bold">4662</div>
+                <div class="font-semibold text-gray-700">Universitas</div>
+                <div id="universities" class="text-left font-bold"></div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <!-- chart pertumbuhan pelajar -->
-        <div id="bar-chart"></div>
+    <div class="my-10">
+        <canvas id="myChart" width="400"></canvas>
     </div>
+
+    <footer class="bg-pink-600 justify-center space-x-2  h-10 flex items-center">
+        <div class="text-gray-100 font-semibold">Have a good day!</div><a href="https://saweria.co/muizh" class="text-gray-300">Buy me a coffee</a>
+    </footer>
 
     <script type="text/javascript" src="index.js"></script>    
 </body>

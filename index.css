@@ -1,8 +1,14 @@
 body {
-    background-color: #14213d;
-    color: #f1f1f1;
+    background-color: white;
+    overflow-x: hidden;
 }
 
+#universities ul li::first-letter {
+    text-transform:capitalize;
+}
+#universities ul{
+    font-size: 14px;
+}
 #tooltip {
     position: absolute;
     width: auto;
@@ -12,6 +18,7 @@ body {
     border-radius: 10px;
     pointer-events: none;
 }
+
 
 #tooltip.hidden {
     display: none;
@@ -24,11 +31,11 @@ body {
     /* color: white; */
 }
 
-#tooltip p {
-    margin: 0;
+#tooltip  {
+    /* margin: 0; */
     font-family: sans-serif;
     font-size: 10px;
-    color: white;
+    /* color: white; */
 }
 
 #univesity ul {
