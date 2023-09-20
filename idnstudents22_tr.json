@@ -1,0 +1,460 @@
+[
+    {
+        "province": "ADANA",
+        "idn_students": 3,
+        "universities": {
+            "ÇUKUROVA ÜNİVERSİTESİ": 3
+        }
+    },
+    {
+        "province": "AFYON",
+        "idn_students": 59,
+        "universities": {
+            "AFYON KOCATEPE ÜNİVERSİTESİ": 59
+        }
+    },
+    {
+        "province": "AKSARAY",
+        "idn_students": 5,
+        "universities": {
+            "AKSARAY ÜNİVERSİTESİ": 5
+        }
+    },
+    {
+        "province": "AMASYA",
+        "idn_students": 2,
+        "universities": {
+            "AMASYA ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "ANKARA",
+        "idn_students": 277,
+        "universities": {
+            "ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ": 13,
+            "ANKARA MEDİPOL ÜNİVERSİTESİ": 3,
+            "ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ": 2,
+            "ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ": 21,
+            "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ": 68,
+            "ANKARA ÜNİVERSİTESİ": 110,
+            "BAŞKENT ÜNİVERSİTESİ": 1,
+            "GAZİ ÜNİVERSİTESİ": 14,
+            "HACETTEPE ÜNİVERSİTESİ": 13,
+            "ORTA DOĞU TEKNİK ÜNİVERSİTESİ": 29,
+            "TED ÜNİVERSİTESİ": 1,
+            "İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "ANTALYA",
+        "idn_students": 9,
+        "universities": {
+            "AKDENİZ ÜNİVERSİTESİ": 8,
+            "ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "AYDıN",
+        "idn_students": 1,
+        "universities": {
+            "AYDIN ADNAN MENDERES ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "AĞrı",
+        "idn_students": 69,
+        "universities": {
+            "AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ": 69
+        }
+    },
+    {
+        "province": "balıkesir",
+        "idn_students": 222,
+        "universities": {
+            "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ": 222
+        }
+    },
+    {
+        "province": "BARTıN",
+        "idn_students": 190,
+        "universities": {
+            "BARTIN ÜNİVERSİTESİ": 190
+        }
+    },
+    {
+        "province": "BOLU",
+        "idn_students": 48,
+        "universities": {
+            "BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ": 48
+        }
+    },
+    {
+        "province": "BURDUR",
+        "idn_students": 1,
+        "universities": {
+            "BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "BURSA",
+        "idn_students": 329,
+        "universities": {
+            "BURSA TEKNİK ÜNİVERSİTESİ": 59,
+            "BURSA ULUDAĞ ÜNİVERSİTESİ": 270
+        }
+    },
+    {
+        "province": "BiLECiK",
+        "idn_students": 8,
+        "universities": {
+            "BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ": 8
+        }
+    },
+    {
+        "province": "DENiZLi",
+        "idn_students": 32,
+        "universities": {
+            "PAMUKKALE ÜNİVERSİTESİ": 32
+        }
+    },
+    {
+        "province": "DiYARBAKıR",
+        "idn_students": 17,
+        "universities": {
+            "DİCLE ÜNİVERSİTESİ": 17
+        }
+    },
+    {
+        "province": "EDiRNE",
+        "idn_students": 23,
+        "universities": {
+            "TRAKYA ÜNİVERSİTESİ": 23
+        }
+    },
+    {
+        "province": "ELAZıĞ",
+        "idn_students": 3,
+        "universities": {
+            "FIRAT ÜNİVERSİTESİ": 3
+        }
+    },
+    {
+        "province": "ERZURUM",
+        "idn_students": 9,
+        "universities": {
+            "ATATÜRK ÜNİVERSİTESİ": 9
+        }
+    },
+    {
+        "province": "ERZiNCAN",
+        "idn_students": 1,
+        "universities": {
+            "ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "ESKiŞEHiR",
+        "idn_students": 109,
+        "universities": {
+            "ANADOLU ÜNİVERSİTESİ": 64,
+            "ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ": 41,
+            "ESKİŞEHİR TEKNİK ÜNİVERSİTESİ": 4
+        }
+    },
+    {
+        "province": "GAZiANTEP",
+        "idn_students": 28,
+        "universities": {
+            "GAZİANTEP ÜNİVERSİTESİ": 28
+        }
+    },
+    {
+        "province": "GÜMÜŞHANE",
+        "idn_students": 7,
+        "universities": {
+            "GÜMÜŞHANE ÜNİVERSİTESİ": 7
+        }
+    },
+    {
+        "province": "GiRESUN",
+        "idn_students": 6,
+        "universities": {
+            "GİRESUN ÜNİVERSİTESİ": 6
+        }
+    },
+    {
+        "province": "ISPARTA",
+        "idn_students": 123,
+        "universities": {
+            "ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ": 11,
+            "SÜLEYMAN DEMİREL ÜNİVERSİTESİ": 112
+        }
+    },
+    {
+        "province": "IĞDıR",
+        "idn_students": 100,
+        "universities": {
+            "IĞDIR ÜNİVERSİTESİ": 100
+        }
+    },
+    {
+        "province": "KAHRAMANMARAŞ",
+        "idn_students": 80,
+        "universities": {
+            "KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ": 80
+        }
+    },
+    {
+        "province": "KARABÜK",
+        "idn_students": 99,
+        "universities": {
+            "KARABÜK ÜNİVERSİTESİ": 99
+        }
+    },
+    {
+        "province": "KASTAMONU",
+        "idn_students": 77,
+        "universities": {
+            "KASTAMONU ÜNİVERSİTESİ": 77
+        }
+    },
+    {
+        "province": "KAYSERi",
+        "idn_students": 286,
+        "universities": {
+            "ABDULLAH GÜL ÜNİVERSİTESİ": 13,
+            "ERCİYES ÜNİVERSİTESİ": 273
+        }
+    },
+    {
+        "province": "KıRıKKALE",
+        "idn_students": 2,
+        "universities": {
+            "KIRIKKALE ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "Kırklareli",
+        "idn_students": 241,
+        "universities": {
+            "KIRKLARELİ ÜNİVERSİTESİ": 241
+        }
+    },
+    {
+        "province": "KOCAELi",
+        "idn_students": 21,
+        "universities": {
+            "GEBZE TEKNİK ÜNİVERSİTESİ": 1,
+            "KOCAELİ ÜNİVERSİTESİ": 20
+        }
+    },
+    {
+        "province": "KONYA",
+        "idn_students": 90,
+        "universities": {
+            "KONYA TEKNİK ÜNİVERSİTESİ": 3,
+            "KTO KARATAY ÜNİVERSİTESİ": 3,
+            "NECMETTİN ERBAKAN ÜNİVERSİTESİ": 55,
+            "SELÇUK ÜNİVERSİTESİ": 29
+        }
+    },
+    {
+        "province": "KÜTAHYA",
+        "idn_students": 313,
+        "universities": {
+            "KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ": 313
+        }
+    },
+    {
+        "province": "MALATYA",
+        "idn_students": 3,
+        "universities": {
+            "İNÖNÜ ÜNİVERSİTESİ": 3
+        }
+    },
+    {
+        "province": "MANiSA",
+        "idn_students": 2,
+        "universities": {
+            "MANİSA CELÂL BAYAR ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "MERSiN",
+        "idn_students": 4,
+        "universities": {
+            "MERSİN ÜNİVERSİTESİ": 4
+        }
+    },
+    {
+        "province": "NEVŞEHiR",
+        "idn_students": 2,
+        "universities": {
+            "NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "NiĞDE",
+        "idn_students": 40,
+        "universities": {
+            "NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ": 40
+        }
+    },
+    {
+        "province": "ORDU",
+        "idn_students": 2,
+        "universities": {
+            "ORDU ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "RiZE",
+        "idn_students": 3,
+        "universities": {
+            "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ": 3
+        }
+    },
+    {
+        "province": "SAKARYA",
+        "idn_students": 635,
+        "universities": {
+            "SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ": 83,
+            "SAKARYA ÜNİVERSİTESİ": 552
+        }
+    },
+    {
+        "province": "SAMSUN",
+        "idn_students": 24,
+        "universities": {
+            "ONDOKUZ MAYIS ÜNİVERSİTESİ": 22,
+            "SAMSUN ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "SiVAS",
+        "idn_students": 129,
+        "universities": {
+            "SİVAS CUMHURİYET ÜNİVERSİTESİ": 129
+        }
+    },
+    {
+        "province": "SiiRT",
+        "idn_students": 1,
+        "universities": {
+            "SİİRT ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "TEKiRDAĞ",
+        "idn_students": 1,
+        "universities": {
+            "TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ": 1
+        }
+    },
+    {
+        "province": "TOKAT",
+        "idn_students": 11,
+        "universities": {
+            "TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ": 11
+        }
+    },
+    {
+        "province": "TRABZON",
+        "idn_students": 12,
+        "universities": {
+            "KARADENİZ TEKNİK ÜNİVERSİTESİ": 9,
+            "TRABZON ÜNİVERSİTESİ": 3
+        }
+    },
+    {
+        "province": "UŞAK",
+        "idn_students": 15,
+        "universities": {
+            "UŞAK ÜNİVERSİTESİ": 15
+        }
+    },
+    {
+        "province": "YALOVA",
+        "idn_students": 2,
+        "universities": {
+            "YALOVA ÜNİVERSİTESİ": 2
+        }
+    },
+    {
+        "province": "ZONGULDAK",
+        "idn_students": 13,
+        "universities": {
+            "ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ": 13
+        }
+    },
+    {
+        "province": "ÇANAKKALE",
+        "idn_students": 47,
+        "universities": {
+            "ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ": 47
+        }
+    },
+    {
+        "province": "ÇORUM",
+        "idn_students": 24,
+        "universities": {
+            "HİTİT ÜNİVERSİTESİ": 24
+        }
+    },
+    {
+        "province": "İSTANBUL",
+        "idn_students": 667,
+        "universities": {
+            "ALTINBAŞ ÜNİVERSİTESİ": 3,
+            "BAHÇEŞEHİR ÜNİVERSİTESİ": 29,
+            "BOĞAZİÇİ ÜNİVERSİTESİ": 1,
+            "BİRUNİ ÜNİVERSİTESİ": 3,
+            "DOĞUŞ ÜNİVERSİTESİ": 3,
+            "FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ": 19,
+            "FENERBAHÇE ÜNİVERSİTESİ": 2,
+            "HALİÇ ÜNİVERSİTESİ": 26,
+            "IŞIK ÜNİVERSİTESİ": 1,
+            "KADİR HAS ÜNİVERSİTESİ": 8,
+            "KOÇ ÜNİVERSİTESİ": 5,
+            "MARMARA ÜNİVERSİTESİ": 30,
+            "SABANCI ÜNİVERSİTESİ": 2,
+            "SAĞLIK BİLİMLERİ ÜNİVERSİTESİ": 6,
+            "YEDİTEPE ÜNİVERSİTESİ": 1,
+            "YILDIZ TEKNİK ÜNİVERSİTESİ": 26,
+            "ÖZYEĞİN ÜNİVERSİTESİ": 5,
+            "ÜSKÜDAR ÜNİVERSİTESİ": 13,
+            "İBN HALDUN ÜNİVERSİTESİ": 17,
+            "İSTANBUL 29 MAYIS ÜNİVERSİTESİ": 6,
+            "İSTANBUL AREL ÜNİVERSİTESİ": 4,
+            "İSTANBUL ATLAS ÜNİVERSİTESİ": 1,
+            "İSTANBUL AYDIN ÜNİVERSİTESİ": 12,
+            "İSTANBUL BEYKENT ÜNİVERSİTESİ": 2,
+            "İSTANBUL BİLGİ ÜNİVERSİTESİ": 1,
+            "İSTANBUL GALATA ÜNİVERSİTESİ": 2,
+            "İSTANBUL GEDİK ÜNİVERSİTESİ": 2,
+            "İSTANBUL GELİŞİM ÜNİVERSİTESİ": 1,
+            "İSTANBUL KENT ÜNİVERSİTESİ": 1,
+            "İSTANBUL KÜLTÜR ÜNİVERSİTESİ": 4,
+            "İSTANBUL MEDENİYET ÜNİVERSİTESİ": 9,
+            "İSTANBUL MEDİPOL ÜNİVERSİTESİ": 41,
+            "İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ": 11,
+            "İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ": 120,
+            "İSTANBUL TEKNİK ÜNİVERSİTESİ": 11,
+            "İSTANBUL TOPKAPI ÜNİVERSİTESİ": 2,
+            "İSTANBUL TİCARET ÜNİVERSİTESİ": 7,
+            "İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ": 2,
+            "İSTANBUL ÜNİVERSİTESİ": 215,
+            "İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA": 9,
+            "İSTİNYE ÜNİVERSİTESİ": 4
+        }
+    },
+    {
+        "province": "İzmir",
+        "idn_students": 135,
+        "universities": {
+            "DOKUZ EYLÜL ÜNİVERSİTESİ": 124,
+            "EGE ÜNİVERSİTESİ": 7,
+            "İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ": 4
+        }
+    }
+]

@@ -1,0 +1,45 @@
+body {
+    background-color: #14213d;
+    color: #f1f1f1;
+}
+
+#tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip div {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+#univesity ul {
+    list-style: none;
+}
+
+ul {
+    list-style:none;
+}
+ul, li { /* reset the margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
